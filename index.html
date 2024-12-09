@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Wenqing's Portfolio</title>
+    <meta charset="UTF-8"> <!-- setup allow the webpage to understand better -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  It helps make the webpage responsive by ensuring 
+      it adapts properly to different screen sizes and resolutions -->
+    <!-- web tag -->
+    <link rel="shortcut icon" type="x-icon" href="img/logo1-removebg-preview.png">
+    <!-- font family -->
+    <link rel="stylesheet" href="css_files/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS (Optional, for additional functionality like modals) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!--  jQuery Library for svg animation -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo1-removebg-preview.png" class="logoimg" alt="picture missing" title="">
+        </div>
+        <div class="nav">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- reference: https://codepen.io/alig01/pen/WNLGogV -->
+        <div id="intro-page" class="intro-page">
+            <div class="content-wrapper">
+                <div class="bg position-relative">
+                    <div class="content">
+                        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <p class="display-3 fw-bold text-center">
+                                    Hello!
+                                </p>
+                                <p class="display-3 fw-bold text-center">
+                                    This is Wenqing Pan
+                                </p>
+                                <div class="animation-content">
+                                    <button id="start-button" class="start-button">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <p class="display-3 fw-bold text-center">
+                                    An Artist?
+                                </p>
+                                <p class="display-3 fw-bold text-center">
+                                    A Programmer?
+                                </p>
+                                <p class="display-3 fw-bold text-center">
+                                    A Designer?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="gif-container">
+                <img src="img/load_1.gif" alt="Loading Animation" class="loading-gif">
+            </div>
+            <div id="gif-container2">
+                <img src="img/load_1.gif" alt="Loading Animation" class="loading-gif">
+            </div>
+            <div id="gif-container3">
+                <img src="img/ma1.gif" alt="Loading Animation" class="loading-gif">
+            </div>
+        </div>
+
+
+
+
+        <div class="self-intro">
+            <div class="name-intro">
+                <h1 class="name-text1">Hi, I'm Wenqing Pan</h1>
+                <h1 class="name-text2">A digital media designer specializing in interactive design and game development
+                </h1>
+            </div>
+            <div id="gif-container4">
+                <img src="img/me3.gif" alt="Loading Animation" class="loading-selfgif">
+            </div>
+        </div>
+
+        
+        <div class="statement">
+            <div class="statementtext">
+                <h2 class="statetext">"Through the fusion of art and technology, I strive to craft immersive experiences
+                    that connect, inspire, and redefine the way we interact with the world."</h2>
+            </div>
+        </div>
+
+        <!-- Reference:https://codepen.io/gerichilli/pen/rNjEQPV -->
+        <div class="project">
+            <!-- <div class="project_title">
+                <img src="img/previous_work.jpg" alt="Loading Animation" class="project_title_text">
+            </div> -->
+            <div class="wrapper">
+                <div class="typing-demo">
+                    Previous Work
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="card card--1">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/DigitalInteraction/poster.jpg" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Life Flower</div>
+                        <div class="card__author">Interactive Design Project</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Life Flower</div>
+                        <div class="card__author">Interactive Design Project</div>
+                        <div class="card__content">This project visualizes the passage of time and life through an interactive kinetic sculpture
+                            that combines heart rate data, mechanical flowers, LED lights, and a clock. The blooming and
+                            wilting flowers symbolize life's cycles, while the ticking clock reflects the unstoppable flow
+                            of time. Light represents growth, hope, and the influence of culture and time on our
+                            experiences. The piece invites reflection on the fleeting nature of time, urging viewers to
+                            consider its preciousness and how it shapes their lives.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <div class="card card--2">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/3D/poster.png" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">3D Modeling</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container3">
+                <div class="card card--3">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/DigitalInteraction/poster.jpg" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container4">
+                <div class="card card--4">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/DigitalInteraction/poster.jpg" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container5">
+                <div class="card card--5">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/DigitalInteraction/poster.jpg" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container6">
+                <div class="card card--6">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/DigitalInteraction/poster.jpg" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container7">
+                <div class="card card--7">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/Nanjing/poster.webp" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container8">
+                <div class="card card--8">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/Anxiety/poster.png" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container9">
+                <div class="card card--9">
+                    <div class="card__front">
+                        <div class="card__img"><img src="img/UIUX/poster.png" alt="Loading Poster" />
+                        </div>
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                    </div>
+                    <div class="card__back">
+                        <div class="card__title">Be the Refuge</div>
+                        <div class="card__author">Chenxing Han</div>
+                        <div class="card__content">The Magical Language of Others is a powerful and aching love
+                            story in letters, from mother to daughter. After living in America for over a decade,
+                            Eun Ji Koh’s parents return to South Korea for work, leaving fifteen-year-old Eun Ji and
+                            her brother behind in California. Overnight, Eun Ji finds herself abandoned and adrift
+                            in a world made strange by her mother’s absence. Her mother writes letters, in Korean,
+                            over the years seeking forgiveness and love—letters Eun Ji cannot fully understand until
+                            she finds them years later hidden in a box.</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="skillsets">
+            <div class="whitespace"></div>
+            <!-- <div class="project_title">
+                <img src="img/skillsets-removebg-preview.png" alt="Loading img" class="project_title_text">
+            </div> -->
+            <div class="wrapper">
+                <div class="typing-demo1">
+                    SkillSets
+                </div>
+            </div>
+            <div class="skills">
+                <div class="game">
+                    <img src="img/skill_game-removebg-preview.png" alt="Loading img" class="game_title">
+                </div>
+                <div class="game1">
+                    <img src="img/game1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="game2">
+                    <img src="img/game2-removebg-preview.png" alt="Loading img" class="game_skill2">
+                </div>
+                <div class="game3">
+                    <img src="img/game3-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="game4">
+                    <img src="img/game4-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="web">
+                    <img src="img/skill_web-removebg-preview.png" alt="Loading img" class="web_title">
+                </div>
+                <div class="web2">
+                    <img src="img/web2-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="web4">
+                    <img src="img/web4-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="web1">
+                    <img src="img/web1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="web3">
+                    <img src="img/web3-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="ar">
+                    <img src="img/skill_ar-removebg-preview.png" alt="Loading img" class="ar_title">
+                </div>
+                <div class="ar1">
+                    <img src="img/game1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="photo">
+                    <img src="img/skill_photo-removebg-preview.png" alt="Loading img" class="photo_title">
+                </div>
+                <div class="photo1">
+                    <img src="img/photo1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="film">
+                    <img src="img/skill_film-removebg-preview.png" alt="Loading img" class="film_title">
+                </div>
+                <div class="film1">
+                    <img src="img/film1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="film2">
+                    <img src="img/film2-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="product">
+                    <img src="img/skill_product-removebg-preview.png" alt="Loading img" class="product_title">
+                </div>
+                <div class="product1">
+                    <img src="img/product1-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+
+                <div class="product3">
+                    <img src="img/product3-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="product4">
+                    <img src="img/product4-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+                <div class="product2">
+                    <img src="img/product2-removebg-preview.png" alt="Loading img" class="game_skill">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="contact">
+            <img src="img/contact-img.jpg" alt="Loading img" class="cart" id="rotate">
+            <div class="contact_icon">
+                <div class="phone" data-content="phone">
+                    <img src="img/phone-removebg-preview.png" alt="Phone Icon">
+                </div>
+                <div class="email" data-content="email">
+                    <img src="img/email-removebg-preview.png" alt="Email Icon">
+                </div>
+                <div class="wechat" data-content="wechat">
+                    <img src="img/wechat-removebg-preview.png" alt="WeChat Icon">
+                </div>
+            </div>
+            <div class="info" id="info">
+                <!-- 内容将根据点击的图标动态更新 -->
+                <p id="info-content"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+
+            <audio id="background-audio" autoplay loop>
+                <source src="audio/main_bg_small.ogg">
+                <source src="audio/main_bg.MP3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <button id="audio-toggle" class="audio-button">🔊</button>
+        </div>
+
+        &copy; 2024 copyright reserved <br>
+
+    </footer>
+    <script src="js_files/script.js"></script>
+
+</body>
+
+</html>
